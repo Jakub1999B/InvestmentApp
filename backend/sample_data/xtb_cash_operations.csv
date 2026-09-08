@@ -1,0 +1,5 @@
+ID,Type,Time,Comment,Symbol,Amount
+c1,DIVIDENT,2025-05-16 12:00:00,AAPL dividend,AAPL.US,18.75
+c2,Withholding Tax,2025-05-16 12:00:00,WHT AAPL,AAPL.US,-2.81
+c3,Free-funds Interest,2025-06-30 00:00:00,Interest June,,6.40
+c4,deposit,2024-01-10 09:00:00,Bank transfer,,8000.00

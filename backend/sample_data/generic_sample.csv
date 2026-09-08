@@ -1,0 +1,5 @@
+date,type,symbol,isin,quantity,price,currency,fee,withholding_tax,country,broker,notes
+2024-01-15,buy,KO,US1912161007,25,60.10,USD,1.00,0,US,generic,sample buy
+2024-08-20,buy,KO,US1912161007,10,68.00,USD,0.80,0,US,generic,second lot
+2025-04-02,sell,KO,US1912161007,30,72.40,USD,1.20,0,US,generic,fifo sell
+2025-07-01,dividend,KO,US1912161007,5,0.48,USD,0,0.36,US,generic,quarterly dividend

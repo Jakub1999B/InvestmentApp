@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Sora", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Fraunces", ui-serif, Georgia, serif;
+  --color-ink: #12201c;
+  --color-moss: #1c3a32;
+  --color-leaf: #2f6f5e;
+  --color-mint: #b7e4c7;
+  --color-paper: #f4efe4;
+  --color-card: #fffdf8;
+  --color-rule: #d7cbb6;
+  --color-gold: #c7922c;
+  --color-coral: #c45c4a;
+  --color-slate: #5c6b66;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  color: var(--color-ink);
+  background:
+    radial-gradient(1200px 500px at 10% -10%, rgba(183, 228, 199, 0.55), transparent 50%),
+    radial-gradient(900px 400px at 100% 0%, rgba(199, 146, 44, 0.16), transparent 45%),
+    linear-gradient(180deg, #f7f3ea 0%, #efe6d4 100%);
+  font-family: var(--font-sans);
+}
+
+.paper-grid {
+  background-image:
+    linear-gradient(rgba(18, 32, 28, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(18, 32, 28, 0.035) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+.stamp {
+  border: 2px solid currentColor;
+  transform: rotate(-6deg);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
